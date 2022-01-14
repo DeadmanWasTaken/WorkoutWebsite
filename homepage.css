@@ -50,6 +50,15 @@
     float: left;
 }
 
+.card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 1000px;
+    float: left;
+    text-align: center;
+}
+
 .cardright {
     background-color: #f1f1f1;
     padding: 20px;
