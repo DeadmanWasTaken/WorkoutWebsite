@@ -42,29 +42,12 @@
     text-decoration: none;
 }
 
-.cardleft {
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: 750px;
-    float: left;
-}
-
 .card {
     background-color: #f1f1f1;
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: 1000px;
-    float: left;
-    text-align: center;
-}
-
-.cardright {
-    background-color: #f1f1f1;
-    padding: 20px;
-    margin-top: 20px;
-    margin-right: 750px;
-    float: right;
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 body {
@@ -82,7 +65,7 @@ table {
     overflow-y: scroll;
     position: static;
     width: 50%;
-  }
+}
   
   thead th {
     background: #88CCF1;
@@ -92,13 +75,13 @@ table {
     font-weight: 100;
     letter-spacing: 2px;
     text-transform: uppercase;
-  }
+}
   
   tr {
     background: #f4f7f8;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
-  }
+}
   
   th, td {
     font-family: 'Lato', sans-serif;
@@ -107,13 +90,13 @@ table {
     text-align: center;
     width: 20%;
     border: 1px solid black;
-  }
+}
 
   .imageresize {
     width: 409px;
     height: 245px;
-  }
+}
 
   .fontstrikethrough {
       text-decoration: line-through;
-  }
+}
